@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "esm:add": "deno run -A https://esm.sh/v125 add",
+    "esm:update": "deno run -A https://esm.sh/v125 update",
+    "esm:remove": "deno run -A https://esm.sh/v125 remove"
+  },
+  "importMap": "import_map.json",
+  "compilerOptions": {
+    "types": [
+      "./node_modules/@types/react/index.d.ts",
+      "./node_modules/@types/react-dom/index.d.ts"
+    ],
+    "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
+  }
+}
